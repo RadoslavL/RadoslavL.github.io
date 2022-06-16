@@ -1,0 +1,21 @@
+<?php
+$username = $_POST["usernamelog"];
+$password = $_POST["passwordlog"];
+if($username != "User"){
+   echo "Invalid Username!";
+?>
+<br/>
+<?php
+}
+if($password != "Password"){
+   echo "Invalid Password!";
+?>
+<br/>
+<?php
+}
+echo $username;
+?>
+<br/>
+<?php
+echo $password;
+?>
